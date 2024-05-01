@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+
+.checkedStatus{
+    text-decoration:line-through;
+}
+
+#id{
+    display:none;
+}
+
+
+
+body {
+    background-color: white;
+    background-image: url('../fonts/Image/roli.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#logout {
+    float: right;
+    font-size: 12pt;
+    border: 1px solid black;
+    position: relative;
+    left: 250px;
+    bottom:165px;
+  
+}
+
+#indexpage {
+    border-radius: 75px 75px;
+    padding: 25px;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    /*float: right;*/
+    font-size: 12pt;
+    border: 1px solid black;
+    /*position: relative;*/
+    /*left: 100px;*/
+   
+    top: 100px;
+    background-color: aqua;
+}
+
+#register {
+    border-radius: 75px 75px;
+    right: 70px;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    width: 600px;
+    height: 900PX;
+    background-color: white;
+    background-color: aqua;
+}
+
+#loginpage {
+    border-radius: 75px 75px;
+    padding: 16px;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+  
+}
